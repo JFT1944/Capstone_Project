@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="dispensa_holder"
+    >
+      <div
+        class="logo"
+      >
+        <span
+          class="logo1"
+        >
+          Dispensa
+          <span
+            class="logo2"
+          >
+            .io
+          </span>
+        </span>
+      </div>
+      <div
+        class="NavBar_holder"
+      >
+        <a
+          aria-current="page"
+          class="navs active"
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          class="navs"
+          href="/login"
+        >
+          Login
+        </a>
+        <a
+          class="navs"
+          href="/signup"
+        >
+          Sign Up
+        </a>
+      </div>
+      <div
+        id="signin_holder"
+        style="width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; color: rgb(15, 104, 58);"
+      >
+        <h2>
+          Welcome to Dispensa
+          <span
+            class="logo2"
+          >
+            .io!
+          </span>
+        </h2>
+        <h3>
+          The best place to store your digital pantry and speed up your shopping experience.
+        </h3>
+        <a
+          class=""
+          href="/login"
+        >
+          Login:
+        </a>
+        <a
+          class=""
+          href="/signup"
+        >
+          Sign Up:
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

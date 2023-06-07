@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="iForms"
+    style="transform: translateY(50px);"
+  >
+    <h2>
+      Copy And Paste Ingredients Here
+    </h2>
+    <span
+      style="align-items: center;"
+    >
+      <span
+        style="text-align: left; width: 40vw; min-width: 275px;"
+      >
+        Recipe Name (will not save recipe if left empty)
+      </span>
+      <input
+        name="recipe_name"
+        placeholder="Recipe Name (Not Necessary)"
+        type="text"
+        value=""
+      />
+    </span>
+    <span
+      style="align-items: center;"
+    >
+      <span
+        style="text-align: left; width: 40vw; min-width: 275px;"
+      >
+        Recipe Ingredients
+      </span>
+      <textarea
+        name="Ingredients"
+      />
+    </span>
+    <span
+      class="submit_button"
+      style="align-items: center;"
+    >
+      <input
+        type="submit"
+      />
+    </span>
+  </form>
+</DocumentFragment>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="updatePanelHolder"
+  >
+    <div
+      class=""
+    >
+      <form
+        class="iForms"
+      >
+        <h1>
+          Update Your Ingredient
+        </h1>
+        <span>
+          <input
+            name="available_amount"
+            placeholder="Newly Available Amount for ingredient (Number Only)"
+            type="number"
+            value=""
+          />
+        </span>
+        <span>
+          <input
+            name="full_amount"
+            placeholder="New Total Amount for ingredient (Number Only)"
+            type="number"
+            value=""
+          />
+        </span>
+        <span
+          class="submit_button"
+        >
+          <input
+            type="submit"
+          />
+        </span>
+        <span
+          class="submit_button"
+        >
+          <button>
+            Delete Ingredient
+          </button>
+        </span>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

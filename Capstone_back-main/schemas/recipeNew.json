@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "ingredients",
+        "name",
+        "username"
+    ],
+    "properties": {
+        "ingredients": {
+            "type": "string",
+            "default": "",
+            "title": "The ingredients Schema",
+            "examples": [
+                "2 cups all-purpose flour\n1 teaspoon baking soda\n"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Stuff"
+            ]
+        },
+        "username": {
+            "type": "string",
+            "default": "",
+            "title": "The username Schema",
+            "examples": [
+                "jp102"
+            ]
+        }
+    },
+    "examples": [{
+        "ingredients": "2 cups all-purpose flour\n1 teaspoon baking soda\n",
+        "name": "Stuff",
+        "username": "jp102"
+    }]
+}

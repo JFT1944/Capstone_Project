@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; color: rgb(15, 104, 58);"
+  >
+    <h2>
+      Welcome 
+    </h2>
+  </div>
+</DocumentFragment>
+`;

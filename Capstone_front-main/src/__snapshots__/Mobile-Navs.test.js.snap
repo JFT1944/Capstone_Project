@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="logoM"
+  >
+    <span
+      class="logo1"
+    >
+      Dispensa
+      <span
+        class="logo2"
+      >
+        .io
+      </span>
+    </span>
+  </div>
+  <div
+    class="NavBar_holde-m"
+  >
+    <div
+      style="height: 150px;"
+    />
+    <a
+      class="navs"
+      href="/part-form"
+    >
+      Add Single Ingredient
+    </a>
+    <a
+      class="navs"
+      href="/full-form"
+    >
+      Add Recipe Ingredients
+    </a>
+    <a
+      class="navs"
+      href="/recipes"
+    >
+      Recipes
+    </a>
+    <a
+      class="navs"
+      href="/pantry"
+    >
+      Pantry
+    </a>
+    <a
+      class="navs"
+      href="/shopping-list"
+    >
+      Shopping List
+    </a>
+    <a
+      aria-current="page"
+      class="navs active"
+      href="/"
+    >
+      Log Out
+    </a>
+    <div
+      style="height: 150px;"
+    />
+  </div>
+</DocumentFragment>
+`;

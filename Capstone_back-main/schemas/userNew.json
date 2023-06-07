@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+      "email",
+      "first_name",
+      "last_name",
+      "password",
+      "pref_unit",
+      "username"
+  ],
+  "properties": {
+      "email": {
+          "type": "string",
+          "default": "",
+          "title": "The email Schema",
+          "examples": [
+              "jp@gmail.com"
+          ]
+      },
+      "first_name": {
+          "type": "string",
+          "default": "",
+          "title": "The first_name Schema",
+          "examples": [
+              "jp"
+          ]
+      },
+      "last_name": {
+          "type": "string",
+          "default": "",
+          "title": "The last_name Schema",
+          "examples": [
+              "jp"
+          ]
+      },
+      "password": {
+          "type": "string",
+          "default": "",
+          "title": "The password Schema",
+          "examples": [
+              "jpjpjp"
+          ]
+      },
+      "pref_unit": {
+          "type": "string",
+          "default": "",
+          "title": "The pref_unit Schema",
+          "examples": [
+              "SI"
+          ]
+      },
+      "username": {
+          "type": "string",
+          "default": "",
+          "title": "The username Schema",
+          "examples": [
+              "jp101"
+          ]
+      }
+  },
+  "examples": [{
+      "email": "jp@gmail.com",
+      "first_name": "jp",
+      "last_name": "jp",
+      "password": "jpjpjp",
+      "pref_unit": "SI",
+      "username": "jp101"
+  }]
+}

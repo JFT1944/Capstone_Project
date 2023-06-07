@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="iForms"
+  >
+    <span>
+      Name: 
+      <input
+        class="input_box"
+        name="name"
+        placeholder="Name of ingredient"
+        type="text"
+        value=""
+      />
+    </span>
+    <span>
+      Unit: 
+      <input
+        class="input_box"
+        name="unit"
+        placeholder="oz, lbs, litre, etc"
+        type="text"
+        value=""
+      />
+    </span>
+    <span>
+      Available Amount: 
+      <input
+        class="input_box"
+        name="available_amount"
+        placeholder="How much do you have?"
+        type="number"
+        value=""
+      />
+    </span>
+    <span>
+      Total Amount: 
+      <input
+        class="input_box"
+        name="full_amount"
+        placeholder="How much is on the packaging?"
+        type="number"
+        value=""
+      />
+    </span>
+    <span
+      class="submit_button"
+    >
+      <input
+        class="input_box"
+        placeholder=""
+        type="submit"
+        value="Submit Ingredient"
+      />
+    </span>
+  </form>
+</DocumentFragment>
+`;

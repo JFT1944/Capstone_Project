@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="logo"
+  >
+    <span
+      class="logo1"
+    >
+      Dispensa
+      <span
+        class="logo2"
+      >
+        .io
+      </span>
+    </span>
+  </div>
+  <div
+    class="NavBar_holder"
+  >
+    <a
+      class="navs"
+      data-testid="single"
+      href="/part-form"
+    >
+      Add Single Ingredient
+    </a>
+    <a
+      class="navs"
+      href="/full-form"
+    >
+      Add Recipe Ingredients
+    </a>
+    <a
+      class="navs"
+      href="/recipes"
+    >
+      Recipes
+    </a>
+    <a
+      class="navs"
+      href="/pantry"
+    >
+      Pantry
+    </a>
+    <a
+      class="navs"
+      href="/shopping-list"
+    >
+      Shopping List
+    </a>
+    <a
+      aria-current="page"
+      class="navs active"
+      href="/"
+    >
+      Log Out
+    </a>
+  </div>
+  <div
+    class="mobile_button"
+  >
+    <img
+      alt="Pantry Shelving Icon"
+      src="https://cdn3.iconfinder.com/data/icons/food-technology-2/64/Shelves_Food-shelving-supermarket-drink-512.png"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+  background: #fffff4;
+  color: #0F683A;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dispensa_holder{
+  width: 100vw;
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar_holder{
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(255, 255, 244, .97);
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 10px;
+  z-index: 21;
+}
+.NavBar_holde-m{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 21;
+}
+.navs{
+  margin: 0 15px;
+  text-decoration: none;
+  color:#0F683A;
+  font-weight: bold;
+}
+.logo{
+  width: 300px;
+  height: 100px;
+  /* background: red; */
+  position: fixed;
+  top: 0px;
+  left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 22;
+}
+/* .logoM{
+  width: 100vw;
+  height: 100vh;
+  background: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+} */
+
+.logo1{
+  font-family: Lato;
+  font-size: 45px;
+  color: #0F683A;
+}
+.logo2{
+color: #AE2C35;
+}
+.ingredient_card{
+  width: 250px;
+  border: 3px solid #0F683A;
+  border-radius: 25px;
+  margin: 12.5px;
+  padding: 12.5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .5), -2px -2px 2px rgba(0, 0, 0, .5);
+  /* box-shadow: ; */
+}
+.ingredient_card_holder{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  /* padding: 25px; */
+  position: absolute;
+  top: 130px;
+  background: #fffff4;
+  
+}
+
+
+
+.iForms{
+  display: flex;
+  flex-direction: column;
+}
+.iForms > span {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-weight: bold;
+margin: 10px 0;
+}
+.iForms > span > input{
+  width: 40vw;
+  min-width: 275px;
+  height: 30px;
+  margin-top: 5px;
+
+}
+.iForms > span > textarea{
+  width: 40vw;
+  min-width: 275px;
+  height: 350px;
+  margin-top: 5px;
+
+}
+.iForms > span > select{
+  width: 40vw;
+  min-width: 275px;
+  height: 30px;
+  margin-top: 5px;
+
+}
+.submit_button > input{
+  border: 2px solid #0F683A;
+  color: #0F683A;
+  font-weight: bold;
+  background: none;
+}
+.submit_button > button{
+  border: 2px solid #0F683A;
+  color: #0F683A;
+  font-weight: bold;
+  background: none;
+}
+.submit_button > input:hover{
+background-color: #0F683A;
+color: beige;
+}
+
+.updatePanelHolder{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 20;
+
+}
+/* .updatePanel{
+  background: white;
+  border: #0F683A solid 3px;
+  width: 300px;
+  height: 80vh;
+  min-height: 400px;
+   */
+/* } */
+.mobile_button{
+/* display: none; */
+position: fixed;
+top: 25px;
+right: 20px;
+z-index: 70;
+display: none;
+}
+.mobile_button > img {
+  height: 75px;
+}
+.active{
+  transform: scale(1.1);
+  color: #AE2C35;
+}
+#signin_holder > a{
+  display: none;
+
+}
+
+.r_add_button{
+background: none;
+color: #0F683A;
+border: #0F683A solid 2px;
+font-weight: bold;
+}
+.r_add_button:hover{
+  background-color: #0F683A;
+  color: beige;
+
+}
+.r_remove_button{
+  margin-top: 10px;
+  background: none;
+  color:#AE2C35;
+  font-weight: bold;
+  border:#AE2C35 solid 2px;
+}
+.r_remove_button:hover{
+  background-color: #AE2C35;
+  color: beige;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* *********** */
+/* Media Query Below */
+
+
+
+@media screen and (max-width: 1060px){
+  .logoM{
+    display: none;
+  }
+  .NavBar_holder{
+    display: none;
+  }
+  .mobile_button{
+    display: block;
+  }
+  #signin_holder > a{
+    display: block;
+  
+  }
+  
+}
+
